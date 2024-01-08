@@ -1,4 +1,7 @@
-h1 {
+body {
   font-family: "DM Sans", sans-serif;
-  font-size: 60px;
+}
+
+h1 {
+  font-size: 40px;
 }

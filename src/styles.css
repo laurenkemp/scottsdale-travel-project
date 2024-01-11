@@ -65,6 +65,20 @@ main h3 {
   line-height: 1;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  margin: 0;
+}
+
 main p {
   font-weight: 400;
   font-size: 16px;
@@ -109,6 +123,41 @@ footer a {
   opacity: 0.7;
 }
 
+section.secondary {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 100px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  background-color: #022138;
+  padding: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: white;
+  margin: 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 20px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  max-height: 180px;
+}
+
 .scottsdale-img {
   max-width: 100%;
 }
@@ -130,6 +179,10 @@ footer a {
 
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footnote {

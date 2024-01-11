@@ -188,6 +188,7 @@ section.secondary {
 
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .gallery {

@@ -257,6 +257,10 @@ section.secondary {
     padding: 10px 14px;
   }
 
+  .instagram-media {
+    margin: 0 auto !important;
+  }
+
   footer {
     padding: 20px 75px;
   }

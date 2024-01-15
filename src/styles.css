@@ -201,6 +201,10 @@ section.secondary {
 }
 
 @media (max-width: 1050px) {
+  .container {
+    text-align: center;
+  }
+
   header {
     padding: 60px 0;
   }
@@ -233,11 +237,37 @@ section.secondary {
     display: none;
   }
 
+  section.secondary {
+    padding: 40px;
+  }
+
+  .card {
+    margin: 0;
+  }
+
   .card-header .embed {
     display: none;
   }
 
   .card-header img {
     aspect-ratio: 4/3;
+  }
+
+  .gallery {
+    padding: 10px 14px;
+  }
+
+  footer {
+    padding: 20px 75px;
+  }
+
+  .grid-footer {
+    grid-gap: 20px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  .footnote {
+    margin-bottom: 20px;
   }
 }
